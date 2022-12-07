@@ -44,4 +44,4 @@ class AlgTelecomPromo:
         print(f'Without a bonus cost ({self.promo_days} days) = {self.cost_with_no_bonus}')
         print(f'Promo Cost = {self.promo.total_amount},')
         print(f'Saved money = {round(self.cost_with_no_bonus - self.promo.total_amount, 2)}')
-        print(f'-----------------------------------------------------------------------')
+        print(f'------------------------------------------------------------------------')
